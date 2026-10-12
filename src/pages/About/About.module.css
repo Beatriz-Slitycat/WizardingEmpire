@@ -1,0 +1,39 @@
+:root{
+  --header: #610606;
+  --text: #ffffff;
+  --texts: #610606;
+  --background: #000000;
+}
+
+*{
+  border: 0;
+  box-sizing: border-box;
+}
+
+.cabecalho{
+  background-color: var(--header);
+  color: var(--text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.pagina{
+  min-height: 100vh;
+  background-color: var(--background);
+}
+
+p{
+  color: var(--text);
+  text-align: start;
+  padding: 1rem;
+}
+
+.textC{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  color: var(--texts);
+}

@@ -1,0 +1,20 @@
+*{
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --header : #000;
+  --text : #fff;
+  --text-s : #a11414;
+  --backgroud : #000;
+}
+
+.cabecalho{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--header);
+  padding: 10px;
+  color: var(--text);
+}
