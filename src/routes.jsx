@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Appcss from "./Home.module.css";
 import Home from './pages/Home/Index';
 import About from './pages/About/Index';
 import Feticos from './pages/Feiticos/Index';

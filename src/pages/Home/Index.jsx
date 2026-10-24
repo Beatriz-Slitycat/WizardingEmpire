@@ -1,4 +1,4 @@
-var _jsxFileName = "C:/Users/Acer/wizardingEmpire/src/pages/home/index.jsx";
+var _jsxFileName = "C:/Users/Acer/wizardingEmpire/src/pages/Home/Index.jsx";
 import Appcss from './Home.module.css';
 import { Link } from 'react-router-dom';
 
