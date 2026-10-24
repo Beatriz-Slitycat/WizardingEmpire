@@ -6,7 +6,18 @@ function Feiticos() {
     <main>
       <header className={Appcss.cabecalho}>
         <h2 className={Appcss.txtCabecalho}>Feitiços</h2>
+        <nav className={Appcss.navBar}>
+          <a href="/" className={Appcss.link}>home</a>
+          <a href="/sobre" className={Appcss.link}>sobre</a>
+          <a href="/feticos" className={Appcss.link}>feticos</a>
+          <a href="/rituais" className={Appcss.link}>rituais</a>
+          <a href="/livros" className={Appcss.link}>livros</a>
+        </nav>
       </header>
+
+      <section className={Appcss.capaf}>
+      </section>
+
       <section className={Appcss.corpo}>
         <p className={Appcss.textC}>Aqui ficará os feitiços, divididos por seções e não por páginas,e também terá dicas de que páginas você pode visitar</p>
       </section>

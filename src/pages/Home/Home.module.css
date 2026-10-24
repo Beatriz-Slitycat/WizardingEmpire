@@ -1,46 +1,45 @@
-:root{
-  --header: #610606;
-  --text: #ffffff;
-  --texts: #610606;
-  --background: #000000;
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+
+:root {
+    --header: #610606;
+    --text: #ffffff;
+    --texts: #610606;
+    --background: #000000;
 }
 
-*{
-  border: 0;
-  box-sizing: border-box;
-}
-
-.cabecalho{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--header);
-  padding: 5px 0;
-  color: var(--text);
-  border-bottom: 1px solid var(--texts);
-}
-
-.pagina{
-  min-height: 100vh;
-  background-color: var(--background);
-}
-
-.txtCabecalho{
-  padding: 5px 10px;
-  border-radius: 5px;
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--header);
+    padding: 5px 0;
+    color: var(--text);
+    border-bottom: 1px solid var(--texts);
+    width: 100%;
+    padding: 5px 10px;
+    font-family: "Lora", serif;
 }
 
 .navBar{
-  display: flex;
-  gap: 5px;
+    display: flex;
+    gap: 1rem;
+    padding: 5px 10px;
+    font-family: "Lora", serif;
+    font-size: 50px;
 }
 
-.link{
+.link {
   text-decoration: none;
   color: var(--text);
+  font-family: "Lora", serif;
+}
+
+.txtCabecalho {
   padding: 5px 10px;
   border-radius: 5px;
 }
+
 
 .corpo{
   display: flex;
@@ -48,12 +47,14 @@
   align-items: center;
   color: var(--texts);
   gap: 20px;
-  padding: 10px;
+  padding: 5px;
+  font-family: "Neuton", serif;
 }
 
 .textS{
   display: flex;
   flex-direction: column;
+  font-family: "Neuton", serif;
 }
 
 .imgPrincipal{
@@ -67,11 +68,13 @@
   flex-direction: column;
   gap: 10px;
   padding: 10px;
+  font-family: "Neuton", serif;
 }
 
 .label{
   font-size: 20px;
   color: var(--texts);
+  font-family: "Neuton", serif;
 }
 
 .textarea{
@@ -80,6 +83,7 @@
   border: 1px solid var(--texts);
   background-color: #000000;
   color: var(--text);
+  font-family: "Neuton", serif;
 }
 
 .btn{
@@ -90,6 +94,7 @@
   background-color: var(--header);
   color: var(--text);
   cursor: pointer;
+  font-family: "Neuton", serif;
 }
 
 
@@ -100,11 +105,13 @@
   background-color: var(--background);
   padding: 3px 0;
   color: var(--texts);
+  font-family: "Neuton", serif;
 }
 
 .textFooter{
   font-size: 20px;
   color: var(--texts);
+  font-family: "Neuton", serif;
 }
 
 .linkFooter{

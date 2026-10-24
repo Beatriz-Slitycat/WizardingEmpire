@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+
+:root {
+    --header: #610606;
+    --text: #ffffff;
+    --texts: #610606;
+    --background: #000000;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--header);
+    padding: 5px 0;
+    color: var(--text);
+    border-bottom: 1px solid var(--texts);
+    width: 100%;
+    padding: 5px 10px;
+    font-family: "Lora", serif;
+}
+
+.navBar {
+    display: flex;
+    gap: 1rem;
+    font-family: "Lora", serif;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--text);
+    font-family: "Lora", serif;
+}
+
+.capa{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('src/pages/Rituais/imagenRitus/capaR.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px; 
+    color: var(--texts);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
