@@ -1,5 +1,5 @@
 var _jsxFileName = "C:/Users/Acer/wizardingEmpire/src/pages/home/index.jsx";
-import Appcss from './home.module.css';
+import Appcss from './Home.module.css';
 import { Link } from 'react-router-dom';
 
 function Home() {
